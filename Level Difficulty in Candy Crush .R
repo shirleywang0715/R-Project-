@@ -10,7 +10,6 @@ library(ggplot2)
 data <- read_csv("/Users/shirley/Documents/Data Learning/R Dataset/Candy Crush/candy_crush.csv")
 
 # Printing out the first couple of rows
-# .... YOUR CODE FOR TASK 2 ....
 head(data)
 
 print("Number of players:")
@@ -64,6 +63,5 @@ p <- prod(difficulty$p_win)
 # Printing it out
 p
 
-# Should our level designer worry about that a lot of 
-# players will complete the episode in one attempt?
+# Should our level designer worry about that a lot of players will complete the episode in one attempt?
 should_the_designer_worry = FALSE
